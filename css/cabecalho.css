@@ -449,15 +449,23 @@ p {
 @media screen and (max-width: 992px) {
   .primeiraparte {
     padding-top: 8em;
-    padding-right: 2em;
+    margin-left: 2em;
   }
+
   .titulo {
     font-size: 1.7em;
+    width: 58%;
   }
   .linkedin {
     margin-left: .5em;
     margin-top: 3.5em;
   }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 90% }
+  }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -545,12 +553,12 @@ p {
 
   .datascience {
     background-color: #0e141b;
-    height: 50%;
+    height: auto;
     width: 60%;
     border: 1px solid #0e141b;
     transition: 1s all ease;
     display: block;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
     margin-left: 12%;
   }
 }
